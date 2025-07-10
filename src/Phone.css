@@ -1,0 +1,82 @@
+.phone-wrapper {
+ width: auto; /* Genişlik içeriğe göre */
+
+  position: fixed; /* Butonu ekranın sabit noktasında tutar */
+
+  bottom: 90px; /* Alttan 20px uzaklık */
+
+  left: 20px; /* Soldan 20px uzaklık */
+
+  padding: 0; /* Gereksiz dolguyu kaldırdım */
+
+  margin: 0; /* Gereksiz boşluğu kaldırdım */
+
+  z-index: 1000; /* Butonun diğer öğelerin üstünde olmasını sağlar */
+}
+ 
+.phone-button {
+background-color: #25D366;
+
+  color: white;
+
+  padding: 12px; /* Yuvarlak görünüm için kare boyutlar */
+
+  width: 60px; /* Sabit genişlik, ikon için uygun */
+
+  height: 60px; /* Sabit yükseklik, ikon için uygun */
+
+  border-radius: 50%; /* Varsayılan durumda tamamen yuvarlak */
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center; /* İkonu ortalar */
+
+  gap: 10px;
+
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+  transition: border-radius 0.3s ease, background-color 0.3s ease, width 0.3s ease, padding 0.3s ease;
+
+}
+ 
+.phone-button:hover {
+  background-color: #1ebd5a;
+  border-radius: 30px;
+  width: auto;
+  padding: 12px 20px;
+  color: white;
+}
+ 
+.phone-text {
+  display: none;
+}
+ 
+.phone-button:hover .phone-text {
+  display: inline;
+}
+ 
+@media (max-width: 768px) {
+  .phone-wrapper {
+    bottom: 15px;
+    right: 15px;
+  }
+ 
+  .phone-button {
+    width: 44px;
+    height: 44px;
+    font-size: 14px;
+    padding: 10px;
+  }
+ 
+  .phone-button:hover {
+    width: auto;
+    padding: 10px 16px;
+    border-radius: 8px;
+  }
+}

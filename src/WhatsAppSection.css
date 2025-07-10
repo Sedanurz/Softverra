@@ -1,0 +1,98 @@
+.whatsapp-wrapper {
+
+  width: auto; /* Genişlik içeriğe göre */
+
+  position: fixed; /* Butonu ekranın sabit noktasında tutar */
+
+  bottom: 20px; /* Alttan 20px uzaklık */
+
+  left: 20px; /* Soldan 20px uzaklık */
+
+  padding: 0; /* Gereksiz dolguyu kaldırdım */
+
+  margin: 0; /* Gereksiz boşluğu kaldırdım */
+
+  z-index: 1000; /* Butonun diğer öğelerin üstünde olmasını sağlar */
+
+}
+ 
+.whatsapp-button {
+
+  background-color: #25D366;
+
+  color: white;
+
+  padding: 12px; /* Yuvarlak görünüm için kare boyutlar */
+
+  width: 60px; /* Sabit genişlik, ikon için uygun */
+
+  height: 60px; /* Sabit yükseklik, ikon için uygun */
+
+  border-radius: 50%; /* Varsayılan durumda tamamen yuvarlak */
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center; /* İkonu ortalar */
+
+  gap: 10px;
+
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+  transition: border-radius 0.3s ease, background-color 0.3s ease, width 0.3s ease, padding 0.3s ease;
+
+}
+ 
+.whatsapp-button:hover {
+
+  background-color: #1ebd5a;
+
+  border-radius: 30px; /* Fare üzerine geldiğinde yuvarlatılmış dikdörtgen */
+
+  width: auto; /* Genişlik içeriğe göre ayarlanır */
+
+  padding: 12px 20px; /* Orijinal dolgu değerine döner */
+  
+  color:aliceblue;
+
+}
+ 
+@media (max-width: 768px) {
+
+  .whatsapp-wrapper {
+
+    bottom: 15px; /* Mobilde alttan daha yakın */
+
+    left: 15px; /* Mobilde soldan daha yakın */
+
+  }
+ 
+  .whatsapp-button {
+
+    width: 44px; /* Mobilde biraz daha küçük */
+
+    height: 44px; /* Mobilde kare boyut */
+
+    font-size: 14px; /* Mobilde daha küçük yazı tipi */
+
+    padding: 10px; /* Mobilde yuvarlak için kare dolgu */
+
+  }
+ 
+  .whatsapp-button:hover {
+
+    width: auto; /* Fare üzerine geldiğinde genişlik içeriğe göre */
+
+    padding: 10px 16px; /* Mobilde orijinal dolgu */
+
+    border-radius: 8px; /* Fare üzerine geldiğinde yuvarlatılmış dikdörtgen */
+
+  }
+
+}
+ 
