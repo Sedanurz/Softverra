@@ -9,7 +9,7 @@
 
   padding: 0; /* Gereksiz dolguyu kaldırdım */
 
-  margin: 20px; /* Gereksiz boşluğu kaldırdım */
+  margin: 80px; /* Gereksiz boşluğu kaldırdım */
 
   z-index: 1000; /* Butonun diğer öğelerin üstünde olmasını sağlar */
 }
