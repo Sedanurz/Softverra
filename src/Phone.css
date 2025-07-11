@@ -8,17 +8,25 @@
   z-index: 1000;
 }
 
-/* Mobil görünüm */
+/* Mobilde telefon butonunu WhatsApp’ın üstüne taşı */
 @media (max-width: 768px) {
   .phone-wrapper {
-    left: -45px;
-    margin: 5px;
-    width: auto;
     position: fixed;
-    bottom: 45px; /* 90px’in yarısı */
+    /* WhatsApp bottom:15px + WhatsApp yükseklik:44px + aradaki boşluk:15px = 74px */
+    bottom: 74px;
+    left: 15px;
+    width: auto;
     padding: 0;
-    z-index: 1000;
+    margin: 0;
+    z-index: 1001; /* WhatsApp’dan bir katman önde */
   }
+  .phone-button {
+    /* Mobilde buton boyutları */
+    width: 44px;
+    height: 44px;
+    font-size: 14px;
+    padding: 10px;
+  }
 }
  
 /* Masaüstü görünüm */
