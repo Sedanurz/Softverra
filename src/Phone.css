@@ -29,8 +29,6 @@
 .phone-button {
   background-color: #25D366;
   color: white;
-  padding: 12px; /* Yuvarlak görünüm için kare boyutlar */
-
   padding: 12px;
   width: 60px;
   height: 60px;
