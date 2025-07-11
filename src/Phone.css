@@ -12,7 +12,7 @@
 @media (max-width: 768px) {
   .phone-wrapper {
     left: -35px;
-    margin: 20px;
+    margin: 5px;
     width: auto;
     position: fixed;
     bottom: 45px; /* 90px’in yarısı */
