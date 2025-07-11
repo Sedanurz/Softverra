@@ -11,13 +11,11 @@
 /* Mobil görünüm */
 @media (max-width: 768px) {
   .phone-wrapper {
-    bottom: 15px;
-    right: 15px;
+    left: -45px;
     margin: 60px;
-    left: -20px;
   }
 }
-
+ 
 /* Masaüstü görünüm */
 @media (min-width: 769px) {
   .phone-wrapper {
@@ -25,8 +23,7 @@
     margin: 0;
   }
 }
-
-.phone-button {
+ .phone-button {
   background-color: #25D366;
   color: white;
   padding: 12px;
