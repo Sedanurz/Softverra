@@ -13,6 +13,11 @@
   .phone-wrapper {
     left: -45px;
     margin: 60px;
+      width: auto;
+  position: fixed;
+  bottom: 90px;
+  padding: 0;
+  z-index: 1000;
   }
 }
  
