@@ -1,19 +1,27 @@
 .phone-wrapper {
- width: auto; /* Genişlik içeriğe göre */
-
-  position: fixed; /* Butonu ekranın sabit noktasında tutar */
-
-  bottom: 90px; /* Alttan 20px uzaklık */
-
-  left: 20px; /* Soldan 20px uzaklık */
-
-  padding: 0; /* Gereksiz dolguyu kaldırdım */
-
-  margin: 0; /* Gereksiz boşluğu kaldırdım */
-
-  z-index: 1000; /* Butonun diğer öğelerin üstünde olmasını sağlar */
+  width: auto;
+  position: fixed;
+  bottom: 90px;
+  padding: 0;
+  z-index: 1000;
 }
- 
+
+/* Mobil görünüm */
+@media (max-width: 768px) {
+  .phone-wrapper {
+    left: -45px;
+    margin: 60px;
+  }
+}
+
+/* Masaüstü görünüm */
+@media (min-width: 769px) {
+  .phone-wrapper {
+    left: 20px;
+    margin: 0;
+  }
+}
+
 .phone-button {
 background-color: #25D366;
 

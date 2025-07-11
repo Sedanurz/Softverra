@@ -1,7 +1,315 @@
+/* Kart genel stili */
+.softverra-info-card {
+  background: #23293d;
+  box-shadow: 0 4px 32px #38ffae14;
+  border: none;
+  border-radius: .75rem;
+  padding: 1.5rem;
+  color: #b8ffe3;
+  transform: translateY(-30px);
+}
+
+/* Kart başlığı */
+.softverra-info-card h5 {
+  color: #38ffae;
+}
+
+/* Kart içi açıklama metni */
+.softverra-info-card .small {
+  color: #b8ffe3;
+}
+
+/* Kart ikonları */
+.softverra-info-card .icon-wrapper i {
+  color: #38ffae;
+  text-shadow: 0 2px 8px #38ffae2b;
+}
+
+
+/* ekleyeceğiniz CSS */
+.softverra-contact-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #6366f1 0%, #38ffae 120%);
+  color: #fff;
+  font-size: 1.5rem;
+  box-shadow: 0 1px 10px #23293d10;
+  transition: background .22s, color .22s, box-shadow .22s;
+}
+.softverra-contact-icon:hover {
+  background: linear-gradient(90deg, #38ffae 0%, #6366f1 80%);
+  color: #23293d;
+  box-shadow: 0 2px 14px #38ffae55, 0 1px 8px #6366f122;
+}
+
+.softverra-contact-link {
+  color: #6366f1;
+  font-size: 1.25rem;
+  text-decoration: none;
+  transition: color .19s;
+}
+.softverra-contact-link:hover {
+  color: #38ffae;
+}
+
+
+
+
 .nav-animated {
   animation: fadeInDown 0.5s ease forwards;
 }
 
+ .softverra-navbar-aside-bg {
+      background: linear-gradient(90deg, #22283b 80%, #38ffae 200%);
+      border-radius: 0 0 2.2rem 2.2rem;
+      box-shadow: 0 4px 32px #38ffae18;
+    }
+    .rd-navbar-aside {
+      background: transparent !important;
+      color: #fff;
+    }
+    .rd-navbar-panel .rd-navbar-brand img {
+      filter: drop-shadow(0 0 12px #38ffae33);
+      max-height: 48px;
+    }
+    .contact-info i {
+      color: #38ffae;
+      opacity: .85;
+      font-size: 1rem;
+    }
+    .softverra-link {
+      color: #fff;
+      font-weight: 500;
+      transition: color .18s;
+    }
+    .softverra-link:hover,
+    .softverra-link:focus {
+      color: #38ffae;
+      text-decoration: underline;
+    }
+    .softverra-social {
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg, #6366f1 0%, #38ffae 120%);
+      color: #fff;
+      font-size: 1.15rem;
+      box-shadow: 0 1px 12px #23293d10;
+      border: none;
+      transition: background .23s, color .21s, box-shadow .18s;
+    }
+    .softverra-social:hover,
+    .softverra-social:focus {
+      background: linear-gradient(90deg, #38ffae 0%, #6366f1 80%);
+      color: #181c23;
+      box-shadow: 0 4px 14px #38ffae40, 0 1px 8px #6366f130;
+      text-decoration: none;
+    }
+    @media (max-width:991.98px) {
+      .softverra-navbar-aside-bg { border-radius: 0 0 1.1rem 1.1rem; }
+    }
+	  .softverra-footer {
+      background: linear-gradient(120deg, #23293d 60%, #38ffae 210%);
+      color: #fff;
+      border-radius: 0;
+      box-shadow: 0 -2px 32px #38ffae14;
+      letter-spacing: 0.01em;
+    }
+    .softverra-footer-title {
+      color: #38ffae;
+      letter-spacing: .5px;
+      text-shadow: 0 1px 8px #38ffae2b;
+    }
+    .softverra-logo-glow {
+      color: #38ffae;
+      text-shadow: 0 4px 32px #38ffae45, 0 1px 1px #23293dbb;
+      font-weight: 800;
+      letter-spacing: 1.2px;
+    }
+    .softverra-social {
+      width: 38px; height: 38px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg,#6366f1 0%, #38ffae 120%);
+      color: #fff; font-size: 1.23rem;
+      box-shadow: 0 1px 10px #23293d10;
+      transition: background .22s, color .22s, box-shadow .22s;
+    }
+    .softverra-social:hover {
+      background: linear-gradient(90deg, #38ffae 0%, #6366f1 80%);
+      color: #23293d;
+      box-shadow: 0 2px 14px #38ffae55, 0 1px 8px #6366f122;
+      text-decoration: none;
+    }
+    .footer-link {
+      transition: color .19s;
+    }
+    .footer-link:hover {
+      color: #38ffae !important;
+      text-decoration: underline;
+    }
+    .softverra-footer-bottom {
+      border-color: #38ffae44 !important;
+      color: #b8ffe3;
+      font-size: .98rem;
+      letter-spacing: 0.02em;
+    }
+    .credits a { color:#38ffae !important; }
+    @media (max-width: 767.98px) {
+      .softverra-footer { padding: 2.3rem 0 1.2rem 0; }
+    }
+	.badge-circle {
+  width: 270px;
+  height: 270px;
+  background: linear-gradient(135deg, #23293d 55%, #38ffae 105%);
+  border-radius: 50%;
+  box-shadow: 0 6px 38px 0 #38ffae22, 0 2px 12px 0 #23293d88;
+  color: #fff;
+  padding: 2.5rem 1.5rem;
+  margin-bottom: 1.7rem;
+  position: relative;
+  border: 4px solid #fff;
+  transition: box-shadow .25s, transform .25s;
+}
+.badge-circle:hover {
+  box-shadow: 0 12px 48px 0 #38ffae44, 0 4px 18px 0 #23293dcc;
+  transform: scale(1.03) rotate(-1deg);
+}
+.btn-gradient-softverra {
+  background: linear-gradient(90deg, #38ffae 12%, #6366f1 100%);
+  color: #fff;
+  border: none;
+  transition: background .2s, box-shadow .2s, color .18s;
+  box-shadow: 0 4px 18px 0 #38ffae22;
+}
+.btn-gradient-softverra:hover, .btn-gradient-softverra:focus {
+  background: linear-gradient(90deg, #6366f1 10%, #38ffae 90%);
+  color: #fff;
+  box-shadow: 0 6px 30px 0 #6366f122;
+  text-decoration: none;
+}
+@media (max-width: 575.98px) {
+  .badge-circle {
+    width: 95vw;
+    max-width: 330px;
+    height: 220px;
+    padding: 1.2rem 1rem;
+    font-size: .98rem;
+  }
+   .badge-circle {
+      width: 56px;
+      height: 56px;
+      background: linear-gradient(135deg, #23293d 55%, #38ffae 105%);
+      border-radius: 50%;
+      color: #fff;
+      font-size: 2.1rem;
+      box-shadow: 0 4px 18px 0 #38ffae22;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid #fff;
+      margin-bottom: 10px;
+      transition: box-shadow .18s, transform .18s;
+    }
+    .badge-circle i { font-size: 1.55em; }
+    .badge-circle:hover { box-shadow:0 8px 32px 0 #6366f144; transform:scale(1.07);}
+    .softverra-gradient-text {
+      background: linear-gradient(90deg, #38ffae 20%, #6366f1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      font-weight: 800;
+      letter-spacing: .8px;
+    }
+    .card.rounded-4 { border-radius:1.4rem !important; }
+    .card .badge { font-size:.98rem; letter-spacing:.02em;}
+    @media (max-width: 991.98px) {
+      .card.rounded-4 { border-radius:1rem !important;}
+    }
+    @media (max-width: 767.98px) {
+      .card.rounded-4 { border-radius:0.8rem !important;}
+      .card { margin-bottom: 1.2rem;}
+    }
+    .card.text-dark .badge.bg-primary {
+      background: #6366f1 !important;
+    }
+    .card { margin-bottom:1rem;}
+}
+.softverra-gradient-text {
+  background: linear-gradient(90deg, #38ffae 20%, #6366f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 800;
+  letter-spacing: .8px;
+}
+.feature-badges .feature-chip {
+  transition: background .2s, box-shadow .2s, transform .2s;
+  box-shadow: 0 2px 12px 0 rgba(56,255,174,0.08);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.feature-badges .feature-chip:hover {
+  background: #38ffae22;
+  box-shadow: 0 4px 18px 0 #38ffae33;
+  transform: scale(1.035);
+}
+.feature-badges .feature-icon {
+  font-size: 1.1rem;
+  transition: background .19s;
+}
+.softverra-gradient-card {
+  /* KART ARKAPLANI - Gradient ve soft glow */
+  background: linear-gradient(108deg, #23293d 67%, #38ffae 120%);
+  border-radius: 2rem;
+  box-shadow: 0 8px 40px 0 #38ffae23, 0 2px 16px 0 #6366f133;
+  border: 0;
+  overflow: hidden;
+  position: relative;
+}
+.softverra-gradient-card .card-title {
+  color: #fff;
+  text-shadow: 0 2px 10px #23293da1, 0 1px 1px #38ffae44;
+}
+.feature-chip {
+  background: linear-gradient(90deg, rgba(56,255,174,0.12) 40%, rgba(99,102,241,0.13) 100%);
+  border-radius: 1.3rem;
+  color: #fff;
+  font-size: 1.03rem;
+  font-weight: 500;
+  box-shadow: 0 2px 8px #23293d14;
+  border: 1px solid rgba(56,255,174,0.07);
+  transition: background .24s, box-shadow .18s;
+}
+.feature-chip:hover {
+  background: linear-gradient(90deg, #38ffae 30%, #6366f1 120%);
+  color: #23293d;
+  box-shadow: 0 8px 18px 0 #6366f1a7;
+}
+.feature-icon {
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6366f1 20%, #38ffae 120%);
+  color: #fff;
+  font-size: 1.22rem;
+  box-shadow: 0 2px 8px 0 #38ffae18;
+  transition: background .2s, color .2s;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.feature-chip:hover .feature-icon {
+  background: #fff;
+  color: #38ffae;
+}
+@media (max-width: 991.98px) {
+  .softverra-gradient-card { border-radius: 1.1rem;}
+}
 @media (max-width: 991.98px) {
   /* Menü sarmalayıcı */
   .rd-navbar-nav-wrap {

@@ -5,32 +5,78 @@ function Navbar() {
   return (
       <header>
       {/* Üst Bilgi Barı */}
-    <div className="rd-navbar-aside-outer border-bottom" style={{ background: "#255115ed", color: "#fff" }}>
+<div className="rd-navbar-aside-outer softverra-navbar-aside-bg">
   <div className="container">
-    <div className="row align-items-center py-2">
-      {/* Sol: Telefon & Mail */}
-      <div className="col-12 col-md-6 d-flex align-items-center justify-content-md-start justify-content-center ps-md-3">
-        <span className="me-4">
-          <i className="fas fa-phone-alt me-2" />
-          <a href="tel:+1234567890" className="text-white text-decoration-none">+1 234 567 890</a>
-        </span>
-        <span className="me-4">
-          <i className="fas fa-envelope me-2" />
-          <a href="mailto:info@inhouse.com" className="text-white text-decoration-none">info@inhouse.com</a>
-        </span>
+    <div className="row py-2 align-items-center">
+      {/* Sol taraf: Telefon ve Mail */}
+      <div className="col-12 col-md-6 d-flex align-items-center justify-content-md-start justify-content-center mb-2 mb-md-0">
+        <div className="d-flex align-items-center contact-info">
+          <span className="me-2"><i className="fas fa-phone-alt"></i></span>
+          <a href="tel:+1234567890" className="text-white me-3 softverra-link">+1 234 567 890</a>
+          <span style={{width: "10px", display: "inline-block"}}></span>
+          <span className="me-2"><i className="fas fa-envelope"></i></span>
+          <a href="mailto:info@inhouse.com" className="text-white softverra-link">info@inhouse.com</a>
+        </div>
       </div>
-      {/* Sağ: Sosyal */}
-      <div className="col-12 col-md-6 d-flex align-items-center justify-content-md-end justify-content-center mt-2 mt-md-0 pe-md-3">
-        <div style={{ display: "flex", gap: "1.2rem" }}>
-          <a href="#" className="social-icon text-white fs-5"><i className="fab fa-facebook-f" /></a>
-          <a href="#" className="social-icon text-white fs-5"><i className="fab fa-twitter" /></a>
-          <a href="#" className="social-icon text-white fs-5"><i className="fab fa-instagram" /></a>
-          <a href="#" className="social-icon text-white fs-5"><i className="fab fa-linkedin-in" /></a>
+      {/* Sağ taraf: Sosyal Medya İkonları */}
+      <div className="col-12 col-md-6 d-flex justify-content-md-end justify-content-center align-items-center">
+        <div className="d-flex" style={{gap: "1rem"}}>
+          <a href="#" className="softverra-social"><i className="fab fa-facebook-f"></i></a>
+          <a href="#" className="softverra-social"><i className="fab fa-twitter"></i></a>
+          <a href="#" className="softverra-social"><i className="fab fa-instagram"></i></a>
+          <a href="#" className="softverra-social"><i className="fab fa-linkedin-in"></i></a>
         </div>
       </div>
     </div>
   </div>
+  {/* Style - aynı component içinde kullanmak için: */}
+  <style>{`
+    .softverra-navbar-aside-bg {
+      background: linear-gradient(90deg, #22283b 80%, #38ffae 200%);
+      border-radius: 0 0 2.2rem 2.2rem;
+      box-shadow: 0 4px 32px #38ffae18;
+    }
+    .contact-info i {
+      color: #38ffae;
+      opacity: .85;
+      font-size: 1rem;
+    }
+    .softverra-link {
+      color: #fff;
+      font-weight: 500;
+      transition: color .18s;
+      text-decoration: none !important;
+    }
+    .softverra-link:hover,
+    .softverra-link:focus {
+      color: #38ffae;
+      text-decoration: underline !important;
+    }
+    .softverra-social {
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg, #6366f1 0%, #38ffae 120%);
+      color: #fff;
+      font-size: 1.15rem;
+      box-shadow: 0 1px 12px #23293d10;
+      border: none;
+      transition: background .23s, color .21s, box-shadow .18s;
+      text-decoration: none !important;
+    }
+    .softverra-social:hover,
+    .softverra-social:focus {
+      background: linear-gradient(90deg, #38ffae 0%, #6366f1 80%);
+      color: #181c23;
+      box-shadow: 0 4px 14px #38ffae40, 0 1px 8px #6366f130;
+      text-decoration: none !important;
+    }
+    @media (max-width:991.98px) {
+      .softverra-navbar-aside-bg { border-radius: 0 0 1.1rem 1.1rem; }
+    }
+  `}</style>
 </div>
+
 
 
       {/* Logo ve Menü */}

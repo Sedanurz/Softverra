@@ -47,7 +47,7 @@ function Home() {
 </section>
        
         {/* Services*/}
-        <section className="section novi-background section-lg text-center bg-gray-100">
+        <section className="section novi-background section-lg text-center ">
           <div className="container">
             <h3 className="text-uppercase wow-outer"><span className="wow slideInUp">Our Team</span></h3>
             <div className="row row-lg-50 row-35 row-xxl-70 justify-content-center justify-content-lg-start">

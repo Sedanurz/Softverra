@@ -102,7 +102,7 @@ function About(){
                     </li>
                   </ul>
                   <a
-  href="/contacts.html"
+  href="#values"
   className="btn btn-primary btn-contact rounded-pill py-3 px-5 mt-3 animate__animated animate__pulse animate__infinite"
   style={{ borderRadius: '2rem', hover: { backgroundColor: '#255115ed' }  }}
 >
@@ -182,98 +182,80 @@ function About(){
 </section>
 
           {/* Neden Softverra */}
-          <section className="section py-5 wow fadeInUp" data-wow-delay="0.2s">
-            <div className="container">
-              {/* Neden Softverra Başlık */}
-              <div className="row justify-content-center mb-4">
-                <div className="col-lg-8 text-center">
-                  <h3 className="text-success fw-bold">Neden Softverra?</h3>
-                </div>
-              </div>
-              {/* İçerik */}
-              <div className="row justify-content-center align-items-start g-5">
-                {/* Neden Biz */}
-                <div className="col-lg-6">
-                  <ul className="list-unstyled mb-0">
-                    <li className="mb-3">
-                      <i className="fas fa-circle-check fa-bounce fa-lg me-2" style={{color: '#198754'}} />
-                      Teknolojiyi insanla birleştiren bütüncül bakış açısı
-                    </li>
-                    <li className="mb-3">
-                      <i className="fas fa-circle-check fa-bounce fa-lg me-2" style={{color: '#198754', animationDelay: '0.1s'}} />
-                      Yüksek yetkinlikli ve denetlenmiş teknik kadro
-                    </li>
-                    <li className="mb-3">
-                      <i className="fas fa-circle-check fa-bounce fa-lg me-2" style={{color: '#198754', animationDelay: '0.2s'}} />
-                      Hızlı, esnek ve yasalara %100 uyumlu personel temini
-                    </li>
-                    <li className="mb-3">
-                      <i className="fas fa-circle-check fa-bounce fa-lg me-2" style={{color: '#198754', animationDelay: '0.3s'}} />
-                      Şeffaf iletişim, etik değerler ve uzun vadeli iş ortaklığı
-                    </li>
-                  </ul>
-                </div>
-                {/* Vizyon & Misyon Kartları */}
-                <div className="col-lg-6">
-  <div className="row g-4 justify-content-center">
-    {/* VİZYON */}
-    <div className="col-md-6">
-      <div
-        className="card h-100 text-center border-0 shadow-sm p-4 rounded-3 animate__animated animate__fadeInUp"
-        data-wow-delay="0.2s"
-      >
-        <div className="icon-wrapper mb-3">
-          <i className="fas fa-lightbulb fa-2x text-primary animate__animated animate__tada animate__infinite" />
-        </div>
-        <h5 className="fw-bold mb-2">VİZYONUMUZ</h5>
-        <p className="small text-muted mb-0">
-          Geleceğin iş dünyasında, teknolojiyle insanı birleştirerek verimliliği, sürdürülebilirliği ve dönüşümü destekleyen öncü bir marka olmak.
-        </p>
+     <section className="section py-5 wow fadeInUp" data-wow-delay="0.2s">
+  <div className="container">
+    {/* Başlık */}
+    <div className="row justify-content-center mb-4">
+      <div className="col-lg-8 text-center">
+        <h3 className="text-success fw-bold">Neden Softverra?</h3>
       </div>
     </div>
-    {/* MİSYON */}
-    <div className="col-md-6">
-      <div
-        className="card h-100 text-center border-0 shadow-sm p-4 rounded-3 animate__animated animate__fadeInUp"
-        data-wow-delay="0.3s"
-      >
-        <div className="icon-wrapper mb-3">
-          <i className="fas fa-rocket fa-2x text-danger animate__animated animate__pulse animate__infinite" />
-        </div>
-        <h5 className="fw-bold mb-2">MİSYONUMUZ</h5>
-        <p className="small text-muted mb-0">
-          Şirketlerin dijital projelerine doğru insan kaynağı sunmak, eğitim ve danışmanlık sağlayarak geleceğe hazırlamak.
-        </p>
+
+    {/* İçerik */}
+    <div className="row justify-content-center align-items-start g-5">
+
+      {/* Liste */}
+      <div className="col-lg-6">
+        <ul className="list-unstyled mb-0">
+          {[
+            'Teknolojiyi insanla birleştiren bütüncül bakış açısı',
+            'Yüksek yetkinlikli ve denetlenmiş teknik kadro',
+            'Hızlı, esnek ve yasalara %100 uyumlu personel temini',
+            'Şeffaf iletişim, etik değerler ve uzun vadeli iş ortaklığı'
+          ].map((text, i) => (
+            <li className="mb-3" key={i}>
+              <i
+                className="fas fa-circle-check fa-bounce fa-lg me-2"
+                style={{
+                  color: '#38ffae',
+                  animationDelay: `${i * 0.1}s`
+                }}
+              />
+              {text}
+            </li>
+          ))}
+        </ul>
       </div>
+
+      {/* Kartlar */}
+      <div className="col-lg-6">
+        <div className="row g-4 justify-content-start align-items-start">
+          {/* Vizyon */}
+          <div className="col-md-6">
+            <div className="softverra-info-card text-center h-100">
+              <div className="icon-wrapper mb-3">
+                <i className="fas fa-lightbulb fa-2x animate__animated animate__tada animate__infinite" />
+              </div>
+              <h5 className="fw-bold mb-2">VİZYONUMUZ</h5>
+              <p className="small mb-0 ">
+                Geleceğin iş dünyasında, teknolojiyle insanı birleştirerek
+                verimliliği, sürdürülebilirliği ve dönüşümü destekleyen öncü bir
+                marka olmak.
+              </p>
+            </div>
+          </div>
+
+          {/* Misyon */}
+          <div className="col-md-6">
+            <div className="softverra-info-card text-center h-100">
+              <div className="icon-wrapper mb-3">
+                <i className="fas fa-rocket fa-2x animate__animated animate__pulse animate__infinite" />
+              </div>
+              <h5 className="fw-bold mb-2">MİSYONUMUZ</h5>
+              <p className="small mb-0">
+                Şirketlerin dijital projelerine doğru insan kaynağı sunmak,
+                eğitim ve danışmanlık sağlayarak geleceğe hazırlamak.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-</div>
+</section>
 
-              </div>
-            </div>
-          </section>
-          <section className="section py-5 bg-light">
-            <div className="container">
-              <div className="card shadow p-4 mx-auto" style={{maxWidth: '600px', borderRadius: '50px / 100px'}}>
-                <div className="card-body text-center">
-                  <h3 className="card-title fw-bold mb-3">Biz Hazırız. Ya Siz?</h3>
-                  <p className="quote-classic-text text-justify mb-3">
-                    <strong>SOFTVERRA</strong> olarak, işinize özel çözümler sunmak ve sizi ileriye taşımak için buradayız.Teknoloji artık bir lüks değil, ihtiyaç
-                    . Ama bu yolculukta yalnız değilsiniz.Gelin,  <strong>iş gücünüzü birlikte yeniden tanımlayalım.</strong> 
-                  </p>
-                 {/* React komponentinizde */}
-<a
-  href="/contacts.html"
-  className="btn btn-primary btn-contact rounded-pill py-3 px-5 mt-3 animate__animated animate__pulse animate__infinite"
-  style={{ borderRadius: '2rem' }}
->
-  İletişim <i className="fa fa-arrow-right text-white ms-2" />
-</a>
-
-                </div>
-              </div>
-            </div>
-          </section>
+   
           <Footer />
           </div>
     );

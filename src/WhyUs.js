@@ -29,6 +29,59 @@ function WhyUs() {
             </div>
           </div>
         </section>
+         {/* Neden Softverra: Avantajlar Bölümü */}
+      <section className="section section-md bg-light wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+        <div className="container">
+          <div className="text-center mb-5">
+            <h2 className="text-uppercase fw-bold display-6 mb-3">
+              <span className="text-success">NEDEN SOFTVERRA?</span>
+            </h2>
+            <p className="lead text-muted">İşinizi büyütmek için sunduğumuz avantajlar</p>
+          </div>
+          <div className="row justify-content-center g-4">
+            {/* Avantaj 1 */}
+            <div className="col-md-6 col-lg-3">
+              <div className="card h-100 border-0 shadow-sm text-center py-4 px-2 animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                <div className="mb-3">
+                  <span className="display-5 text-success"><i className="fas fa-bolt" /></span>
+                </div>
+                <h5 className="fw-bold mb-2">Hızlı ve Esnek Çözümler</h5>
+                <p className="text-muted small mb-0">İhtiyacınıza özel, hızlı ve esnek hizmetlerle iş süreçlerinizi kolaylaştırıyoruz.</p>
+              </div>
+            </div>
+            {/* Avantaj 2 */}
+            <div className="col-md-6 col-lg-3">
+              <div className="card h-100 border-0 shadow-sm text-center py-4 px-2 animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                <div className="mb-3">
+                  <span className="display-5 text-success"><i className="fas fa-balance-scale" /></span>
+                </div>
+                <h5 className="fw-bold mb-2">Yasal Süreçlerde Tam Uyumluluk</h5>
+                <p className="text-muted small mb-0">Tüm yasal gerekliliklere uygun, güvenli ve sorunsuz hizmet sunuyoruz.</p>
+              </div>
+            </div>
+            {/* Avantaj 3 */}
+            <div className="col-md-6 col-lg-3">
+              <div className="card h-100 border-0 shadow-sm text-center py-4 px-2 animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+                <div className="mb-3">
+                  <span className="display-5 text-success"><i className="fas fa-project-diagram" /></span>
+                </div>
+                <h5 className="fw-bold mb-2">Proje Bazlı veya Uzun Dönemli Destek</h5>
+                <p className="text-muted small mb-0">Kısa veya uzun vadeli tüm projelerinizde yanınızdayız.</p>
+              </div>
+            </div>
+            {/* Avantaj 4 */}
+            <div className="col-md-6 col-lg-3">
+              <div className="card h-100 border-0 shadow-sm text-center py-4 px-2 animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+                <div className="mb-3">
+                  <span className="display-5 text-success"><i className="fas fa-shield-alt" /></span>
+                </div>
+                <h5 className="fw-bold mb-2">Şeffaf, Güvenilir ve Sürdürülebilir Hizmet</h5>
+                <p className="text-muted small mb-0">Açık iletişim, güven ve sürdürülebilirlik ilkesiyle çalışıyoruz.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
         {/* Biz Kimiz Bölümü */}
         <section className="section section-lg bg-white wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
           <div className="container">
@@ -176,59 +229,7 @@ function WhyUs() {
           </div>
         </section>
         
-      {/* Neden Softverra: Avantajlar Bölümü */}
-      <section className="section section-md bg-light wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
-        <div className="container">
-          <div className="text-center mb-5">
-            <h2 className="text-uppercase fw-bold display-6 mb-3">
-              <span className="text-success">NEDEN SOFTVERRA?</span>
-            </h2>
-            <p className="lead text-muted">İşinizi büyütmek için sunduğumuz avantajlar</p>
-          </div>
-          <div className="row justify-content-center g-4">
-            {/* Avantaj 1 */}
-            <div className="col-md-6 col-lg-3">
-              <div className="card h-100 border-0 shadow-sm text-center py-4 px-2 animate__animated animate__fadeInUp" data-wow-delay="0.1s">
-                <div className="mb-3">
-                  <span className="display-5 text-success"><i className="fas fa-bolt" /></span>
-                </div>
-                <h5 className="fw-bold mb-2">Hızlı ve Esnek Çözümler</h5>
-                <p className="text-muted small mb-0">İhtiyacınıza özel, hızlı ve esnek hizmetlerle iş süreçlerinizi kolaylaştırıyoruz.</p>
-              </div>
-            </div>
-            {/* Avantaj 2 */}
-            <div className="col-md-6 col-lg-3">
-              <div className="card h-100 border-0 shadow-sm text-center py-4 px-2 animate__animated animate__fadeInUp" data-wow-delay="0.2s">
-                <div className="mb-3">
-                  <span className="display-5 text-success"><i className="fas fa-balance-scale" /></span>
-                </div>
-                <h5 className="fw-bold mb-2">Yasal Süreçlerde Tam Uyumluluk</h5>
-                <p className="text-muted small mb-0">Tüm yasal gerekliliklere uygun, güvenli ve sorunsuz hizmet sunuyoruz.</p>
-              </div>
-            </div>
-            {/* Avantaj 3 */}
-            <div className="col-md-6 col-lg-3">
-              <div className="card h-100 border-0 shadow-sm text-center py-4 px-2 animate__animated animate__fadeInUp" data-wow-delay="0.3s">
-                <div className="mb-3">
-                  <span className="display-5 text-success"><i className="fas fa-project-diagram" /></span>
-                </div>
-                <h5 className="fw-bold mb-2">Proje Bazlı veya Uzun Dönemli Destek</h5>
-                <p className="text-muted small mb-0">Kısa veya uzun vadeli tüm projelerinizde yanınızdayız.</p>
-              </div>
-            </div>
-            {/* Avantaj 4 */}
-            <div className="col-md-6 col-lg-3">
-              <div className="card h-100 border-0 shadow-sm text-center py-4 px-2 animate__animated animate__fadeInUp" data-wow-delay="0.4s">
-                <div className="mb-3">
-                  <span className="display-5 text-success"><i className="fas fa-shield-alt" /></span>
-                </div>
-                <h5 className="fw-bold mb-2">Şeffaf, Güvenilir ve Sürdürülebilir Hizmet</h5>
-                <p className="text-muted small mb-0">Açık iletişim, güven ve sürdürülebilirlik ilkesiyle çalışıyoruz.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
         <Footer />
         </div>
         
