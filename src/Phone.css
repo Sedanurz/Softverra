@@ -11,7 +11,7 @@
 /* Mobil görünüm */
 @media (max-width: 768px) {
   .phone-wrapper {
-    left: -35px;
+    left: -45px;
     margin: 5px;
     width: auto;
     position: fixed;
