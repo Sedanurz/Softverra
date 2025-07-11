@@ -12,12 +12,12 @@
 @media (max-width: 768px) {
   .phone-wrapper {
     left: -45px;
-    margin: 40px;
-      width: auto;
-  position: fixed;
-  bottom: 90px;
-  padding: 0;
-  z-index: 1000;
+    margin: 60px;
+    width: auto;
+    position: fixed;
+    bottom: 45px; /* 90px’in yarısı */
+    padding: 0;
+    z-index: 1000;
   }
 }
  
