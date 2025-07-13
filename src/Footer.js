@@ -22,35 +22,35 @@ function Footer() {
             <div className="col-lg-2 col-6">
               <h5 className="fw-bold mb-3 softverra-footer-title">Hızlı Bağlantı</h5>
               <ul className="list-unstyled">
-                <li><a className="text-white-50 footer-link" href="#">Anasayfa</a></li>
-                <li><a className="text-white-50 footer-link" href="#">Hakkımızda</a></li>
-                <li><a className="text-white-50 footer-link" href="#">Hizmetlerimiz</a></li>
-                <li><a className="text-white-50 footer-link" href="#">İletişim</a></li>
+                <li><a className="text-white-50 footer-link" href="/Home">Anasayfa</a></li>
+                <li><a className="text-white-50 footer-link" href="/About">Hakkımızda</a></li>
+                <li><a className="text-white-50 footer-link" href="/Services">Hizmetlerimiz</a></li>
+                <li><a className="text-white-50 footer-link" href="/Contact">İletişim</a></li>
               </ul>
             </div>
             {/* Orta: Hizmetler */}
             <div className="col-lg-2 col-6">
               <h5 className="fw-bold mb-3 softverra-footer-title">Hizmetlerimiz</h5>
               <ul className="list-unstyled">
-                <li><a className="text-white-50 footer-link" href="#">Bordrolama</a></li>
-                <li><a className="text-white-50 footer-link" href="#">İK Temini</a></li>
-                <li><a className="text-white-50 footer-link" href="#">Danışmanlık</a></li>
-                <li><a className="text-white-50 footer-link" href="#">Eğitim Teknolojileri</a></li>
-                <li><a className="text-white-50 footer-link" href="#">Outsourcing</a></li>
+                <li><a className="text-white-50 footer-link" href="/Services">Bordrolama</a></li>
+                <li><a className="text-white-50 footer-link" href="/Services">İK Temini</a></li>
+                <li><a className="text-white-50 footer-link" href="/Services">Danışmanlık</a></li>
+                <li><a className="text-white-50 footer-link" href="/Services">Eğitim Teknolojileri</a></li>
+                <li><a className="text-white-50 footer-link" href="/Services">Outsourcing</a></li>
               </ul>
             </div>
             {/* Sağ: İletişim */}
             <div className="col-lg-3 col-md-12 text-center text-lg-start">
               <h5 className="fw-bold mb-3 softverra-footer-title">Bize Ulaşın</h5>
-              <p className="mb-1"><i className="mdi mdi-map-marker me-2" />Yıldız Teknik Teknopark</p>
-              <p className="mb-1">Davutpaşa Caddesi, 34220</p>
-              <p className="mb-1">Esenler / İstanbul</p>
+              <p className="mb-1"><i className="mdi mdi-map-marker me-2" />Esentepe Mah. Büyükdere Cad.</p>
+              <p className="mb-1">LOFT Rezidans A Blok No:201/40</p>
+              <p className="mb-1">Şişli / İstanbul</p>
               <div className="d-flex align-items-center mt-1 contact-info">
                 <span className="me-2"><i className="fas fa-phone-alt" /></span>
-                <a href="tel:+1234567890" className="text-white footer-link">+1 234 567 890</a>
+                <a href="tel:+1234567890" className="text-white footer-link">+90 212 909 87 42</a>
                 <span style={{width: '40px', display: 'inline-block'}} />
                 <span className="me-2"><i className="fas fa-envelope" /></span>
-                <a href="mailto:info@inhouse.com" className="text-white footer-link">info@inhouse.com</a>
+                <a href="mailto:info@inhouse.com" className="text-white footer-link">info@softverra.com</a>
               </div>
             </div>
           </div>

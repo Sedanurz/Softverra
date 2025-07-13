@@ -47,32 +47,34 @@ function Home() {
 </section>
        
         {/* Services*/}
-        <section className="section novi-background section-lg text-center ">
+        <section className="section novi-background section-lg text-center bg-gray-100">
           <div className="container">
-            <h3 className="text-uppercase wow-outer"><span className="wow slideInUp">Our Team</span></h3>
+            <h3 className="text-uppercase wow-outer"><span className="wow slideInUp">Hİzmetler ve Ürünler </span></h3>
             <div className="row row-lg-50 row-35 row-xxl-70 justify-content-center justify-content-lg-start">
-              <div className="col-md-10 col-lg-6 wow-outer">
-                {/* Profile Creative*/}
-                <article className="profile-creative wow slideInLeft">
-                  <figure className="profile-creative-figure"><img className="profile-creative-image" src="images/imagesteam-1-270x273.jpg" alt="" width={270} height={273} />
-                  </figure>
-                  <div className="profile-creative-main">
-                    <h5 className="profile-creative-title"><a href="#">Bilişim İnsan Kaynağı Temini</a></h5>
-                    <p style={{textAlign: 'justify'}}> Dijital çağın gereksinimlerine uygun olarak, teknoloji alanında uzmanlaşmış nitelikli personelin kurum ve kuruluşlara sağlanması sürecidir.</p>
-                  </div>
-                </article>
-              </div>
-              <div className="col-md-10 col-lg-6 wow-outer">
-                {/* Profile Creative*/}
-                <article className="profile-creative wow slideInLeft" data-wow-delay=".2s">
-                  <figure className="profile-creative-figure"><img className="profile-creative-image" src="images/imagesteam-2-270x273.jpg" width={270} height={273} />
-                  </figure>
-                  <div className="profile-creative-main">
-                    <h5 className="profile-creative-title"><a href="#">Bordrolama &amp; Taşeron Personel Hizmeti</a></h5>
-                    <p style={{textAlign: 'justify'}}> Dijital çağın gereksinimlerine uygun olarak, teknoloji alanında uzmanlaşmış nitelikli personelin kurum ve kuruluşlara sağlanması sürecidir.</p>
-                  </div>
-                </article>
-              </div>
+             <div className="col-md-10 col-lg-6 mx-auto wow-outer">
+  {/* Profile Creative */}
+            <article className="profile-creative wow slideInLeft">
+              <figure className="profile-creative-figure">
+                <img
+                  className="profile-creative-image"
+                  src="images/imagesteam-1-270x273.jpg"
+                  alt=""
+                  width={270}
+                  height={273}
+                />
+              </figure>
+              <div className="profile-creative-main">
+                <h5 className="profile-creative-title">
+                  <a href="#">Yazılım ve Bilişim Danışmanlığı</a>
+                </h5>
+                <p style={{ textAlign: 'justify' }}>
+                  Dijital çağın gereksinimlerine uygun olarak, teknoloji alanında uzmanlaşmış nitelikli personelin kurum ve kuruluşlara sağlanması sürecidir.
+                </p>
+    </div>
+  </article>
+</div>
+
+            
               <div className="col-md-10 col-lg-6 wow-outer">
                 {/* Profile Creative*/}
                 <article className="profile-creative wow slideInLeft">
@@ -84,17 +86,33 @@ function Home() {
                   </div>
                 </article>
               </div>
-              <div className="col-md-10 col-lg-6 wow-outer">
-                {/* Profile Creative*/}
+          <div className="container">
+            <div className="row">
+              <div className="col-md-10 col-lg-6 mx-auto wow-outer">
+                {/* Profile Creative */}
                 <article className="profile-creative wow slideInLeft" data-wow-delay=".2s">
-                  <figure className="profile-creative-figure"><img className="profile-creative-image" src="images/imagesteam-4-270x273.jpg" width={270} height={273} />
+                  <figure className="profile-creative-figure">
+                    <img
+                      className="profile-creative-image"
+                      src="images/imagesteam-4-270x273.jpg"
+                      width={270}
+                      height={273}
+                      alt="Personel"
+                    />
                   </figure>
                   <div className="profile-creative-main">
-                    <h5 className="profile-creative-title"><a href="#">Esnek, Güvenilir ve Profesyonel Çözümler</a></h5>
-                    <p style={{textAlign: 'justify'}}> Dijital çağın gereksinimlerine uygun olarak, teknoloji alanında uzmanlaşmış nitelikli personelin kurum ve kuruluşlara sağlanması sürecidir.</p>
+                    <h5 className="profile-creative-title">
+                      <a href="#">Esnek, Güvenilir ve Profesyonel Çözümler</a>
+                    </h5>
+                    <p style={{ textAlign: 'justify' }}>
+                      Dijital çağın gereksinimlerine uygun olarak, teknoloji alanında uzmanlaşmış nitelikli personelin kurum ve kuruluşlara sağlanması sürecidir.
+                    </p>
                   </div>
                 </article>
               </div>
+            </div>
+          </div>
+
             </div>
           </div>
         </section>
@@ -142,7 +160,7 @@ function Home() {
         </h6>
         <div className="wow-outer button-outer">
           <a
-  href="/contacts.html"
+  href="/Contacts"
   className="btn btn-primary btn-contact rounded-pill py-3 px-5 mt-3 "
   style={{ borderRadius: '2rem' }}
 >
@@ -192,27 +210,11 @@ function Home() {
         </div>
       </div>
 
-      {/* Card 3 */}
-      <div className="col-sm-6 col-lg-4">
-        <div className="card h-100 border-0 shadow-sm p-4 text-center 
-                        animate_animated animate_fadeInUp"
-             style={{ transition: "transform .2s, box-shadow .2s" }}
-             onMouseEnter={e => e.currentTarget.style.transform = "translateY(-5px)"}
-             onMouseLeave={e => e.currentTarget.style.transform = "translateY(0)"}
-        >
-          <div className="mb-3">
-            <i className="fas fa-star fa-3x text-warning" />
-          </div>
-          <h5 className="card-title fw-bold mb-2">%100 Garanti</h5>
-          <p className="card-text">
-            Tüm sonuçlar, %100 Softverra garantisiyle size en doğru seçimi sunar.
-          </p>
-        </div>
-      </div>
+   
     </div>
   </div>
 </section>
-        <Footer />
+        <Footer/>
       </div>
   );
 }

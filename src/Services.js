@@ -35,49 +35,7 @@ return (
         <style dangerouslySetInnerHTML={{__html: "\n.softverra-gradient-text {\n  background: linear-gradient(90deg, #38ffae 20%, #6366f1 0%);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  background-clip: text;\n  text-fill-color: transparent;\n  font-weight: 800;\n  letter-spacing: .8px;\n}\n" }} />
         <div>
           <section className="container my-5">
-            {/* Büyük kart */}
-            <div className="row mt-4 justify-content-center">
-              <div className="col-12">
-                <div className="card shadow-lg border-0 softverra-gradient-card text-white overflow-hidden" style={{minHeight: '260px'}}>
-                  <div className="row g-0 align-items-center">
-                    {/* Sol Resim Alanı */}
-                    <div className="col-md-4 d-none d-md-block">
-                      <img src="images/ChatGPT Image 11 Tem 2025 00_40_35.png" alt="Personel Hizmeti" className="img-fluid h-100 w-100 object-fit-cover" style={{minHeight: '260px', objectFit: 'cover', filter: 'brightness(0.89)'}} />
-                    </div>
-                    {/* Sağ Metin Alanı */}
-                    <div className="col-md-8 p-4">
-                      <h4 className="card-title fw-bold mb-3" style={{letterSpacing: '.5px', fontSize: '1.5rem'}}>
-                        Personel Hizmeti <span className="fw-normal" style={{opacity: '.7', color: '#38ffae'}}>(Outsourcing)</span>
-                      </h4>
-                      <p className="card-text mb-4" style={{fontSize: '1.06rem', lineHeight: '1.6'}}>
-                        <span className="fw-semibold" style={{fontSize: '1.08rem'}}>İşinizin Yükünü Hafifletiyoruz, Ekibinizi Güçlendiriyoruz.</span><br />
-                        Softverra olarak, bilişim sektöründe uzmanlaşmış insan kaynağını sizin adınıza yönetiyor, bordrosu bizim üzerimizde olan profesyonelleri ihtiyaç duyduğunuz alanlarda görevlendiriyor, işinizin yükünü hafifletip, ekibinizi güçlendiriyoruz.
-                      </p>
-                      <div className="feature-badges mt-3 d-flex flex-column gap-3">
-                        <div className="feature-chip px-3 py-2 d-flex align-items-center">
-                          <span className="feature-icon me-2 d-flex align-items-center justify-content-center">
-                            <i className="fas fa-clock" />
-                          </span>
-                          <span className="small fw-medium">Personel yönetimiyle vakit kaybetmezsiniz</span>
-                        </div>
-                        <div className="feature-chip px-3 py-2 d-flex align-items-center">
-                          <span className="feature-icon me-2 d-flex align-items-center justify-content-center">
-                            <i className="fas fa-file-invoice" />
-                          </span>
-                          <span className="small fw-medium">SGK, bordro, izin gibi yasal süreçlerle uğraşmazsınız</span>
-                        </div>
-                        <div className="feature-chip px-3 py-2 d-flex align-items-center">
-                          <span className="feature-icon me-2 d-flex align-items-center justify-content-center">
-                            <i className="fas fa-bolt" />
-                          </span>
-                          <span className="small fw-medium">Esnek, hızlı ve güvenilir bir çözümle ekibinizi büyütürsünüz</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
             <style dangerouslySetInnerHTML={{__html: "\n.softverra-gradient-card {\n  /* KART ARKAPLANI - Gradient ve soft glow */\n  background: linear-gradient(108deg, #23293d 67%, #38ffae 120%);\n  border-radius: 2rem;\n  box-shadow: 0 8px 40px 0 #38ffae23, 0 2px 16px 0 #6366f133;\n  border: 0;\n  overflow: hidden;\n  position: relative;\n}\n.softverra-gradient-card .card-title {\n  color: #fff;\n  text-shadow: 0 2px 10px #23293da1, 0 1px 1px #38ffae44;\n}\n.feature-chip {\n  background: linear-gradient(90deg, rgba(56,255,174,0.12) 40%, rgba(99,102,241,0.13) 100%);\n  border-radius: 1.3rem;\n  color: #fff;\n  font-size: 1.03rem;\n  font-weight: 500;\n  box-shadow: 0 2px 8px #23293d14;\n  border: 1px solid rgba(56,255,174,0.07);\n  transition: background .24s, box-shadow .18s;\n}\n.feature-chip:hover {\n  background: linear-gradient(90deg, #38ffae 30%, #6366f1 120%);\n  color: #23293d;\n  box-shadow: 0 8px 18px 0 #6366f1a7;\n}\n.feature-icon {\n  width: 2.3rem;\n  height: 2.3rem;\n  border-radius: 50%;\n  background: linear-gradient(135deg, #6366f1 20%, #38ffae 120%);\n  color: #fff;\n  font-size: 1.22rem;\n  box-shadow: 0 2px 8px 0 #38ffae18;\n  transition: background .2s, color .2s;\n  flex-shrink: 0;\n  justify-content: center;\n}\n.feature-chip:hover .feature-icon {\n  background: #fff;\n  color: #38ffae;\n}\n@media (max-width: 991.98px) {\n  .softverra-gradient-card { border-radius: 1.1rem;}\n}\n" }} />
             {/* Font Awesome CDN (Zaten varsa tekrar eklemene gerek yok!) */}
             <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
