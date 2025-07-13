@@ -12,10 +12,10 @@ function Navbar() {
       <div className="col-12 col-md-6 d-flex align-items-center justify-content-md-start justify-content-center mb-2 mb-md-0">
         <div className="d-flex align-items-center contact-info">
           <span className="me-2"><i className="fas fa-phone-alt"></i></span>
-          <a href="tel:+1234567890" className="text-white me-3 softverra-link">+1 234 567 890</a>
+          <a href="tel:+902129098742" className="text-white me-3 softverra-link">+90 212 909 87 42</a>
           <span style={{width: "10px", display: "inline-block"}}></span>
           <span className="me-2"><i className="fas fa-envelope"></i></span>
-          <a href="mailto:info@inhouse.com" className="text-white softverra-link">info@inhouse.com</a>
+          <a href="mailto:info@softverra.com" className="text-white softverra-link">info@softverra.com</a>
         </div>
       </div>
       {/* Sağ taraf: Sosyal Medya İkonları */}
@@ -136,7 +136,7 @@ function Navbar() {
     {`
       .navbar-logo {
         height: 170px;   /* Logo yüksekliği 150px */
-        width: 200px;
+        width: 170px;
         transition: transform .25s ease;
         margin-top: -40px; /* Logo yukarı kaydırma */
         margin-bottom: -40px; /* Logo aşağı kaydırma */
