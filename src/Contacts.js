@@ -28,47 +28,32 @@ function Contacts() {
         <div className="container">
           <div className="row justify-content-center align-items-center mb-5">
             {/* Bilgiler Solda */}
-           <div className="col-lg-6 mb-4 mb-lg-0">
-  <div className="text-center text-lg-start">
-    <div className="d-flex flex-column align-items-center align-items-lg-start gap-3">
+            <div className="col-lg-6 mb-4 mb-lg-0">
+              <div className="text-center text-lg-start">
+                <div className="d-flex flex-column align-items-center align-items-lg-start gap-3">
+                  <div className="d-flex align-items-center gap-3">
+                    <span className="icon-circle bg-success text-white d-flex align-items-center justify-content-center me-2" style={{width: '48px', height: '48px', fontSize: '1.5rem'}}>
+                      <i className="fas fa-envelope" />
+                    </span>
+                    <a href="mailto:info@softverra.com" className="fs-5 fw-medium text-success text-decoration-none">info@softverra.com</a>
+                  </div>
+                  <div className="d-flex align-items-center gap-3">
+                    <span className="icon-circle bg-success text-white d-flex align-items-center justify-content-center me-2" style={{width: '48px', height: '48px', fontSize: '1.5rem'}}>
+                      <i className="fas fa-phone-alt" />
+                    </span>
+                    <a href="tel:02129098742" className="fs-5 fw-medium text-success text-decoration-none">0212 909 87 42</a>
+                  </div>
+                  <div className="d-flex align-items-center gap-3">
+                    <span className="icon-circle bg-success text-white d-flex align-items-center justify-content-center me-2" style={{width: '48px', height: '48px', fontSize: '1.5rem'}}>
+                      <i className="fas fa-map-marker-alt" />
+                    </span>
+                    <span className="fs-6 fw-medium text-success">Esentepe Mah. Büyükdere Cad. LOFT Rezidans A Blok No:201/40 <p>Şişli / İstanbul</p></span>
 
-      <div className="d-flex align-items-center gap-3">
-        <span className="softverra-contact-icon me-2">
-          <i className="fas fa-envelope" />
-        </span>
-        <a
-          href="mailto:info@softverra.com"
-          className="fs-5 fw-medium softverra-contact-link"
-        >
-          info@softverra.com
-        </a>
-      </div>
-
-      <div className="d-flex align-items-center gap-3">
-        <span className="softverra-contact-icon me-2">
-          <i className="fas fa-phone-alt" />
-        </span>
-        <a
-          href="tel:02129098742"
-          className="fs-5 fw-medium softverra-contact-link"
-        >
-          0212 909 87 42
-        </a>
-      </div>
-
-      <div className="d-flex align-items-center gap-3">
-        <span className="softverra-contact-icon me-2">
-          <i className="fas fa-map-marker-alt" />
-        </span>
-        <span className="fs-5 fw-medium softverra-contact-link">
-          İstanbul
-        </span>
-      </div>
-
-    </div>
-  </div>
-</div>
-
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
             {/* Harita Sağda */}
             <div className="col-lg-6">
               <div className="rounded shadow overflow-hidden" style={{minHeight: '300px'}}>
