@@ -43,42 +43,25 @@ function Contacts() {
                     </span>
                     <a href="tel:02129098742" className="fs-5 fw-medium text-success text-decoration-none">0212 909 87 42</a>
                   </div>
-                 <div className="d-flex align-items-center gap-3">
-  <span
-    className="icon-circle bg-success text-white d-flex align-items-center justify-content-center me-2"
-    style={{ width: '48px', height: '48px', fontSize: '1.5rem' }}
-  >
-    <i className="fas fa-map-marker-alt" />
-  </span>
+                  <div className="d-flex align-items-center gap-3">
+                    <span className="icon-circle bg-success text-white d-flex align-items-center justify-content-center me-2" style={{width: '48px', height: '48px', fontSize: '1.5rem'}}>
+                      <i className="fas fa-map-marker-alt" />
+                    </span>
+                    <span className="fs-6 fw-medium text-success">SOFTVERRA TEKNOLOJİ A.Ş
+ESENTEPE MAH. BÜYÜKDERE CAD. LOFT RESİDANCE A. BLOK NO:201 
+ <p>ŞİŞLİ/İSTANBUL</p></span>
 
-  <div className="fs-6 fw-medium text-success">
-    SOFTVERRA TEKNOLOJİ A.Ş<br />
-    ESENTEPE MAH. BÜYÜKDERE CAD. LOFT RESİDANCE A. BLOK NO:201<br />
-    ŞİŞLİ / İSTANBUL<br />
-   
-    </a>
-  </div>
-</div>
-
+                   
+                  </div>
                 </div>
               </div>
             </div>
             {/* Harita Sağda */}
-           <div className="col-lg-6">
-  <div className="rounded shadow overflow-hidden" style={{ minHeight: '300px' }}>
-    <iframe
-      src="https://www.google.com/maps?q=SOFTVERRA+TEKNOLOJİ+A.Ş,+ESENTEPE+MAH.,+BÜYÜKDERE+CAD.+LOFT+RESİDANCE+A.+BLOK+NO:201,+ŞİŞLİ,+İSTANBUL&output=embed"
-      width="100%"
-      height={300}
-      style={{ border: 0 }}
-      allowFullScreen
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-      title="Softverra Konum Haritası"
-    />
-  </div>
-</div>
-
+            <div className="col-lg-6">
+              <div className="rounded shadow overflow-hidden" style={{minHeight: '300px'}}>
+                <iframe src="https://www.google.com/maps?q=Yıldız+Teknik+Teknopark,+Davutpaşa+Caddesi,+Esenler,+İstanbul&output=embed" width="100%" height={300} style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Softverra Konum Haritası" />
+              </div>
+            </div>
           </div>
         </div>
         <style dangerouslySetInnerHTML={{__html: "\n          .icon-circle {\n            border-radius: 50%;\n            box-shadow: 0 2px 8px rgba(25,135,84,0.15);\n            transition: background 0.2s;\n          }\n          .icon-circle:hover {\n            background: #157347 !important;\n          }\n        " }} />
