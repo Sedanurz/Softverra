@@ -43,16 +43,29 @@ function Contacts() {
                     </span>
                     <a href="tel:02129098742" className="fs-5 fw-medium text-success text-decoration-none">0212 909 87 42</a>
                   </div>
-                  <div className="d-flex align-items-center gap-3">
-                    <span className="icon-circle bg-success text-white d-flex align-items-center justify-content-center me-2" style={{width: '48px', height: '48px', fontSize: '1.5rem'}}>
-                      <i className="fas fa-map-marker-alt" />
-                    </span>
-                    <span className="fs-6 fw-medium text-success">SOFTVERRA TEKNOLOJİ A.Ş
-ESENTEPE MAH. BÜYÜKDERE CAD. LOFT RESİDANCE A. BLOK NO:201 
- <p>ŞİŞLİ/İSTANBUL</p></span>
+                 <div className="d-flex align-items-center gap-3">
+  <span
+    className="icon-circle bg-success text-white d-flex align-items-center justify-content-center me-2"
+    style={{ width: '48px', height: '48px', fontSize: '1.5rem' }}
+  >
+    <i className="fas fa-map-marker-alt" />
+  </span>
 
-                   
-                  </div>
+  <div className="fs-6 fw-medium text-success">
+    SOFTVERRA TEKNOLOJİ A.Ş<br />
+    ESENTEPE MAH. BÜYÜKDERE CAD. LOFT RESİDANCE A. BLOK NO:201<br />
+    ŞİŞLİ / İSTANBUL<br />
+    <a
+      href="https://www.google.com/maps/@41.080866,29.010329,18z"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-decoration-underline text-success"
+    >
+      Google Haritalarda Aç
+    </a>
+  </div>
+</div>
+
                 </div>
               </div>
             </div>
