@@ -18,7 +18,7 @@ function Contacts() {
                 <h3 className="fw-bold" style={{color: '#b3b7b3'}}>Softverra ile işinizi büyütün, kadronuzu güçlendirin.</h3>
               </div>
               <ul className="breadcrumbs-custom-path text-center">
-                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="/Home">Anasayfa</a></li>
                 <li className="active">NEDEN BİZ?</li>
               </ul>
             </div>
@@ -47,7 +47,9 @@ function Contacts() {
                     <span className="icon-circle bg-success text-white d-flex align-items-center justify-content-center me-2" style={{width: '48px', height: '48px', fontSize: '1.5rem'}}>
                       <i className="fas fa-map-marker-alt" />
                     </span>
-                    <span className="fs-6 fw-medium text-success">Esentepe Mah. Büyükdere Cad. LOFT Rezidans A Blok No:201/40 <p>Şişli / İstanbul</p></span>
+                    <span className="fs-6 fw-medium text-success">SOFTVERRA TEKNOLOJİ A.Ş
+ESENTEPE MAH. BÜYÜKDERE CAD. LOFT RESİDANCE A. BLOK NO:201 
+ <p>ŞİŞLİ/İSTANBUL</p></span>
 
                    
                   </div>

@@ -7,12 +7,11 @@ import Contacts from "./Contacts";
 import WhatsAppSection from "./WhatsAppSection";
 import Phone from "./Phone";
 import Services from "./Services";
-
 function App() {
 return (
 <div className="App">
 <Routes>
-<Route path="/" element={ <Home/> } />
+<Route path="/" element={ <WhyUs/> } />
 <Route path="/WhyUs" element={ <WhyUs/> } />
 <Route path="/About" element={ <About/> } />
 <Route path="/Home" element={ <Home/> } />

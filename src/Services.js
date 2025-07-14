@@ -20,7 +20,7 @@ return (
                 <h3 className="fw-bold" style={{color: '#b3b7b3'}}>Softverra ile hizmetlerinizi kaliteleştirin.</h3>
               </div>
               <ul className="breadcrumbs-custom-path text-center">
-                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="/Home">Anasayfa</a></li>
                 <li className="active">Hizmetler</li>
               </ul>
             </div>

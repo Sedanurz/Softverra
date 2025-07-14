@@ -21,10 +21,11 @@ function Navbar() {
       {/* Sağ taraf: Sosyal Medya İkonları */}
       <div className="col-12 col-md-6 d-flex justify-content-md-end justify-content-center align-items-center">
         <div className="d-flex" style={{gap: "1rem"}}>
-          <a href="#" className="softverra-social"><i className="fab fa-facebook-f"></i></a>
-          <a href="#" className="softverra-social"><i className="fab fa-twitter"></i></a>
-          <a href="#" className="softverra-social"><i className="fab fa-instagram"></i></a>
-          <a href="#" className="softverra-social"><i className="fab fa-linkedin-in"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61578600921480 " className="softverra-social"><i className="fab fa-facebook-f"></i></a>
+      <a href="https://x.com/softverra" className="softverra-social" style={{ fontSize: "20px", fontWeight: "bold" }}>X</a>
+          <a href="https://www.instagram.com/softverra_teknoloji/" className="softverra-social"><i className="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/107929264" className="softverra-social"><i className="fab fa-linkedin-in"></i></a>
+          <a href="https://www.youtube.com/@softverra" className="softverra-social"><i className="fab fa-youtube"></i></a>
         </div>
       </div>
     </div>
