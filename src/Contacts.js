@@ -60,15 +60,16 @@ ESENTEPE MAH. BÜYÜKDERE CAD. LOFT RESİDANCE A. BLOK NO:201
             <div className="col-lg-6">
               <div className="rounded shadow overflow-hidden" style={{minHeight: '300px'}}>
                 <iframe
-      src="https://www.google.com/maps?q=SOFTVERRA+TEKNOLOJİ+A.Ş,+ESENTEPE+MAH.,+BÜYÜKDERE+CAD.+LOFT+RESİDANCE+A.+BLOK+NO:201,+ŞİŞLİ,+İSTANBUL&output=embed"
-      width="100%"
-      height={300}
-      style={{ border: 0 }}
-      allowFullScreen
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-      title="Softverra Konum Haritası"
-    />/div>
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.582444825779!2d29.005493087729565!3d41.08086489744391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab70449295f6f%3A0x6f24bceeb952c6b6!2sLevent%20Loft%201!5e1!3m2!1str!2str!4v1752493645402!5m2!1str!2str"
+  width="600"
+  height="450"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  title="Softverra Konum Haritası"
+/>
+
             </div>
           </div>
         </div>
