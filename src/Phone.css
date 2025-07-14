@@ -64,7 +64,7 @@ background-color: #25D366;
 @media (max-width: 768px) {
   .phone-wrapper {
     right: 15px;
-    bottom: 90px; /* mobilde de mesafeyi koru */
+    bottom: 70px; /* mobilde de mesafeyi koru */
   }
  
   .phone-button {
