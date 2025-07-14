@@ -59,8 +59,16 @@ ESENTEPE MAH. BÜYÜKDERE CAD. LOFT RESİDANCE A. BLOK NO:201
             {/* Harita Sağda */}
             <div className="col-lg-6">
               <div className="rounded shadow overflow-hidden" style={{minHeight: '300px'}}>
-                <iframe src="https://www.google.com/maps?q=Yıldız+Teknik+Teknopark,+Davutpaşa+Caddesi,+Esenler,+İstanbul&output=embed" width="100%" height={300} style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Softverra Konum Haritası" />
-              </div>
+                <iframe
+      src="https://www.google.com/maps?q=SOFTVERRA+TEKNOLOJİ+A.Ş,+ESENTEPE+MAH.,+BÜYÜKDERE+CAD.+LOFT+RESİDANCE+A.+BLOK+NO:201,+ŞİŞLİ,+İSTANBUL&output=embed"
+      width="100%"
+      height={300}
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title="Softverra Konum Haritası"
+    />/div>
             </div>
           </div>
         </div>
