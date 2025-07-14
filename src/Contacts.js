@@ -55,13 +55,7 @@ function Contacts() {
     SOFTVERRA TEKNOLOJİ A.Ş<br />
     ESENTEPE MAH. BÜYÜKDERE CAD. LOFT RESİDANCE A. BLOK NO:201<br />
     ŞİŞLİ / İSTANBUL<br />
-    <a
-      href="https://www.google.com/maps/@41.080866,29.010329,18z"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-decoration-underline text-success"
-    >
-      Google Haritalarda Aç
+   
     </a>
   </div>
 </div>
@@ -70,11 +64,21 @@ function Contacts() {
               </div>
             </div>
             {/* Harita Sağda */}
-            <div className="col-lg-6">
-              <div className="rounded shadow overflow-hidden" style={{minHeight: '300px'}}>
-                <iframe src="https://www.google.com/maps?q=Yıldız+Teknik+Teknopark,+Davutpaşa+Caddesi,+Esenler,+İstanbul&output=embed" width="100%" height={300} style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Softverra Konum Haritası" />
-              </div>
-            </div>
+           <div className="col-lg-6">
+  <div className="rounded shadow overflow-hidden" style={{ minHeight: '300px' }}>
+    <iframe
+      src="https://www.google.com/maps?q=SOFTVERRA+TEKNOLOJİ+A.Ş,+ESENTEPE+MAH.,+BÜYÜKDERE+CAD.+LOFT+RESİDANCE+A.+BLOK+NO:201,+ŞİŞLİ,+İSTANBUL&output=embed"
+      width="100%"
+      height={300}
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title="Softverra Konum Haritası"
+    />
+  </div>
+</div>
+
           </div>
         </div>
         <style dangerouslySetInnerHTML={{__html: "\n          .icon-circle {\n            border-radius: 50%;\n            box-shadow: 0 2px 8px rgba(25,135,84,0.15);\n            transition: background 0.2s;\n          }\n          .icon-circle:hover {\n            background: #157347 !important;\n          }\n        " }} />
