@@ -263,7 +263,7 @@ function About(){
                   </p>
                  {/* React komponentinizde */}
 <a
-  href="/contacts.html"
+  href="/Contacts"
   className="btn btn-primary btn-contact rounded-pill py-3 px-5 mt-3 animate__animated animate__pulse animate__infinite"
   style={{ borderRadius: '2rem' }}
 >

@@ -42,7 +42,7 @@ function Footer() {
                 <li><a className="text-white-50 footer-link" href="/Services">İK Temini</a></li>
                 <li><a className="text-white-50 footer-link" href="/Services">Danışmanlık</a></li>
                 <li><a className="text-white-50 footer-link" href="/Services">Eğitim Teknolojileri</a></li>
-                <li><a className="text-white-50 footer-link" href="/Services">Outsourcing</a></li>
+              
               </ul>
             </div>
             {/* Sağ: İletişim */}
