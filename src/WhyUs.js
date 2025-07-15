@@ -139,21 +139,7 @@ function WhyUs() {
                 </div>
               </div>
             </div>
-            {/* Kişi 4 */}
-            <div className="col-md-6 col-lg-3 mb-4">
-              <div className="card h-100 text-center shadow border-0 p-3">
-                <img src="images/nazlicanalbayrak.jpg" className="card-img-top rounded-circle mx-auto mt-3" alt="Kişi 4" style={{width: '120px', height: '120px', objectFit: 'cover', border: '4px solid #198754'}} />
-                <div className="card-body">
-                  <h5 className="card-title fw-bold mb-1">Nazlıcan ALBAYRAK</h5>
-                  <p className="card-text text-muted mb-2">Yapay Zeka Uzmanı</p>
-                  <div className="d-flex justify-content-center gap-3">
-                    <a href="#" className="text-primary"><i className="fab fa-linkedin fa-lg" /></a>
-                    <a href="#" className="text-dark"><i className="fab fa-github fa-lg" /></a>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
+         
           </div>
             {/* Uzman Kadro Kartları */}
             <div className="row justify-content-center mb-5">
