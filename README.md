@@ -33,3 +33,13 @@ git clone https://github.com/Sedanurz/softverra.com.git
 cd softverra.com
 npm install
 npm run dev  # or npm start
+
+📞 Contact For access to the demo or any questions about this project:
+
+Developer: Seda Nur ZURNACI
+
+Email: sedanur.zurnaci@gmail.com
+
+LinkedIn: linkedin.com/in/seda-nur-zurnacı
+
+GitHub: https://github.com/Sedanurz
